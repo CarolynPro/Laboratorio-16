@@ -1,1 +1,33 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio 16</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#acercade">A cerca de</a></li>
+                <li><a href="servicos">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1> REGISTO DE USUARIOS</h1>
+    <form>
+        <label>Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <label>Correo Electronico:</label>
+        <input type="email" id="email" name="email">
+        <label>Contraseña:</label>
+        <input type="password" id="password" name="password">
+        <label>Imagen de Perfil</label>
+        <input type="file" id="imagen" name="imagen" accept="imagen" onchange="mostarImagen">
+        <img id="ver-imagen" class="ver-imagen">
+        <button type="submit">Registar</button>
+    </form>
+</body>
+</html>
