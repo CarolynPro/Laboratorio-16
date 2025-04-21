@@ -3,7 +3,7 @@ function validarFormulario(){
     let email=document.getElementById("email").value;
     let imagen=document.getElementById("imagen").value;
     if (nombre=="" || email=="" || imagen=="" ){
-        alerta("Todos los campos son obligatorios...");
+        alert("Todos los campos son obligatorios...");
         return false;
     }
     return true;
