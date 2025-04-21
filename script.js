@@ -1,7 +1,7 @@
 function validarFormulario(){
-    let nombre=document.getElementById('nombre').value;
-    let email=document.getElementById('email').value;
-    let imagen=document.getElementById('imagen').value;
+    let nombre=document.getElementById("nombre").value;
+    let email=document.getElementById("email").value;
+    let imagen=document.getElementById("imagen").value;
     if (nombre=="" || email=="" || imagen==""){
         alerta("Todos los campos son obligatorios...");
         return false;
